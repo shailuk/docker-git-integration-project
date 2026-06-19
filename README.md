@@ -6,7 +6,6 @@ An automated CI/CD pipeline that builds a Python application Docker image and pu
 
 This project demonstrates how to connect a GitHub repository to Docker Hub for continuous integration. By utilizing GitHub Actions, the entire process of building the container image and releasing it to a central registry is completely automated.
 
-```text
 [Local Machine] ──(git push)──> [GitHub Repository]
                                         │
                             (Triggers GitHub Actions)
@@ -16,12 +15,8 @@ This project demonstrates how to connect a GitHub repository to Docker Hub for c
                             ├── Pulls code
                             ├── Authenticates via PAT
                             └── Builds & Pushes Image ──> [Docker Hub] <br/>
-
-🛠️ Tech Stack
+🛠️ Tech Stack<br/>
 Language: Python
-
 Containerization: Docker
-
 CI/CD Automation: GitHub Actions
-
 Container Registry: Docker Hub
